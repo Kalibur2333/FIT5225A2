@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-5225ui-dev-54516-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320312007398:role/amplify-5225ui-dev-54516-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320312007398:role/amplify-5225ui-dev-54516-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-5225ui-dev-54516-deployment",
+      "UnauthRoleName": "amplify-5225ui-dev-54516-unauthRole",
+      "StackName": "amplify-5225ui-dev-54516",
+      "StackId": "arn:aws:cloudformation:us-east-1:320312007398:stack/amplify-5225ui-dev-54516/821441d0-ff22-11ed-b15a-0e0498f38db3",
+      "AmplifyAppId": "d6r8bkqtob5h4",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-5225ui-dev-54516-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "5225uif7ceeead": {}
+      },
+      "function": {
+        "5225search": {},
+        "fit5225search": {}
+      }
+    }
+  }
+}

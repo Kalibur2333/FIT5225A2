@@ -1,0 +1,79 @@
+.Footer{
+	width: 100%;
+	height: auto;
+	min-height: 60px;
+	max-height: 40vh;
+	margin-top: 20vh;
+	bottom: 0;
+	background-color: hsl(210, 11%, 15%);
+	padding: auto;
+}
+
+@mixin footer_block {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	max-height: 40vh;
+}
+
+@mixin footer_text_color {
+	color: #9B9D9E;
+}
+
+.footer_text{
+	list-style: none;
+	@include footer_text_color();
+}
+
+.footer_ul{
+	font-weight: bolder;
+	@include footer_text_color();
+}
+
+.footer_logo{
+	@include footer_block();
+	max-width: 25vh;
+	height: auto;
+}
+
+.footer_col{
+	@include footer_block();
+	height: auto;
+}
+
+
+.page_title{
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.Uploader{
+	border-style: dashed;
+	padding: 5px;
+	background-color: #ffffcc;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	min-height: 30vh;
+	height: auto;
+}
+
+.Button{
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+	height: 40px;
+	width: 40%;
+	margin-left: 30%;
+	text-align: center;
+}
+
+.logo {
+	height: 32px;
+	margin: 16px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
